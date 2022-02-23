@@ -3,6 +3,7 @@ n=int(input("enter avalue:"))
 for i in range(n):
     e=int(input())
     l.append(e)
+print("\n")    
 for i in range(n,0,-1):
     print(l[i-1])
 OUTPUT:
